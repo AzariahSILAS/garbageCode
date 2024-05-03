@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    min-height: 300px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#itemList{
+    border: solid black 1px;
+    margin: 20px;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 20px;
+}

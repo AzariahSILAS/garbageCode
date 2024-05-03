@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+header{
+  display: flex;
+  background-color: #464242;
+  justify-content:  space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 12px 0 20px 0;
+}
+header img{
+  width: 70px;
+  height: 70px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+header div img{
+  width: 30px;
+  height: 30px;
+}
+
+header div{
+      display: flex;
+      /* background-color: #E5E5E5; */
+      padding: 0 10px 0 10px;
+      align-items: center;
+      height: 70px;
+}
+
+#savings{
+  width: 160px;
+
+}
+#savingsInput{
+  border: 2px black;
+}
+
+.hero-section{ 
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  width: 300px;
+  padding: 0 20px 0 50px ;
+  margin-top: 50px;
+}
+.section{
+  padding: 0 20px 0 50px ;
+  margin: 100px 0 100px 0;
+}
+
+.first-div{ 
+  width: 200px;
+  display: flex;
+  justify-content:  space-between;
+}
+
+.second-div{ 
+  display: flex;
+  align-items: center;
+  padding-top:10px ;
+  
+}
+.empty-div{ 
+  background-color: #464242;
+  border-radius: 51px 51px 51px 51px;
+  margin-right: 10px;
+  width: 400px;
+  height: 25px;
+  
+} 
+.full-div{
+  background-color: #ffffff;
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid black; */
+  border-radius: 51px 51px 51px 51px;
+}
+
+ #editBtn{
+  margin-left: 100px;
+}
+
+
+

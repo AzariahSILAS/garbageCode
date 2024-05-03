@@ -1,0 +1,23 @@
+
+body {
+  height: 100vh;
+  text-align: center;
+}
+
+#canvas {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  margin-top: 100px;
+}
+
+
+#score{
+  color: blue;
+  font-size: 100px;
+}  
+span, p{
+  color: brown;
+  font-size: 20px;
+}

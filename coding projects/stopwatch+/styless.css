@@ -1,0 +1,31 @@
+.container{
+    background-color: antiquewhite;
+   
+}
+.timerStopWatch{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 2px ;
+}
+.startReset{
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+#timer{
+    
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.timer{
+   padding-top: 20px; 
+}
+

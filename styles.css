@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+p{
+    margin: 0;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+}
+nav{
+    background-color: #293C5B;
+    display: flex;
+    justify-content: space-around;
+}
+nav h3{
+    text-shadow: 2px 3px 3px #a829b6 ;
+}
+header{
+   height: 500px;
+   background-color: #202E44;
+   background-image: url("assets/cyberPRoom.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   align-content: center;
+}
+header h1{
+    margin: 300px auto auto auto;
+    background-color: rgba(167, 186, 237, 60%);
+    width: 430px;
+    box-shadow: 0px 0px 8px #a829b6;
+    border-radius: 10px;
+}
+.aboutTheHome{
+    background-color: #293C5B;
+    padding: 10px 90px;
+    color: rgb(142, 147, 163);
+}
+.aboutTheHome h2{
+    margin-left: 10px;
+}
+.specialAppSection{
+    background-color: #1A2637;
+}
+.specialApp{
+    display: flex;
+    justify-content: center;
+}
+.text-content{
+    
+    margin: auto;
+    width: 400px;
+}
+.text-content h2{
+    margin: 0 0 0 10px;
+}
+.specialApp img{
+    width: 250px;
+    margin: 30px 100px 30px 30px;
+}
+.specialAppBtn{
+    background-color: #5F708C;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 0 10px;
+    font-size: large;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+
+}
