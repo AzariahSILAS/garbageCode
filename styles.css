@@ -33,7 +33,7 @@ header{
 }
 header h1{
     margin: 300px auto auto auto;
-    background-color: rgba(167, 186, 237, 60%);
+    background-color: rgba(167, 186, 237, 50%);
     width: 430px;
     box-shadow: 0px 0px 8px #a829b6;
     border-radius: 10px;
@@ -47,7 +47,7 @@ header h1{
     margin-left: 10px;
 }
 .specialAppSection{
-    background-color: #1A2637;
+    background-color: #1a2637;
 }
 .specialApp{
     display: flex;
@@ -74,7 +74,34 @@ header h1{
     width: 100px;
     padding: 10px;
     text-align: center;
-    /* margin-left: 50%;
-    transform: translateX(-50%); */
+}
 
+.allProjects{
+    background-color: #293C5B;
+    padding: 20px;
+
+}
+.allProjects h2{
+    margin-top: 0;
+    text-align: center;
+}
+
+.gird-container{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem ;
+    grid-template-rows:20rem 20rem 20rem 20rem 20rem ;
+    row-gap: 10px;
+}
+.grid-card{
+    background-color: #a829b6;
+    align-content:end;
+    padding-bottom: 20px;
+}
+.grid-card button{
+    display: block;
+    /* width: 32.188px;
+    height: 16px ; */
+    margin:0  auto;
+    padding: 5 10px;
 }
