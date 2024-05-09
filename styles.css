@@ -4,22 +4,27 @@
 *{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
-p{
-    margin: 0;
-    padding: 10px;
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    /* border: solid black 2px; */
 }
+
 
 body{
     margin: 0;
 }
 nav{
-    background-color: #293C5B;
+    background-color: #110B33;
     display: flex;
     justify-content: space-around;
 }
 nav h3{
-    text-shadow: 2px 3px 3px #a829b6 ;
+    color: aliceblue;
+    text-shadow: 2px 3px 3px #e9a9f0 ;
 }
 header{
    height: 500px;
@@ -40,36 +45,41 @@ header h1{
 }
 .aboutTheHome{
     background-color: #293C5B;
-    padding: 10px 90px;
+    padding: 20px 0;
     color: rgb(142, 147, 163);
 }
-.aboutTheHome h2{
-    margin-left: 10px;
+.aboutHomeTextBox{
+    width: 50rem;
+    margin: 0 auto;
 }
 .specialAppSection{
     background-color: #1a2637;
 }
 .specialApp{
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    column-gap: 13%;
+    padding: 50px 48px;
+    margin: auto;
 }
 .text-content{
     
-    margin: auto;
+    /* margin: auto; */
     width: 400px;
 }
-.text-content h2{
+/* .text-content h2{
     margin: 0 0 0 10px;
-}
+} */
 .specialApp img{
     width: 250px;
-    margin: 30px 100px 30px 30px;
+    /* margin: 30px 100px 30px 30px; */
 }
 .specialAppBtn{
     background-color: #5F708C;
     border-radius: 10px;
     border: none;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 0px;
     font-size: large;
     width: 100px;
     padding: 10px;
@@ -78,25 +88,91 @@ header h1{
 
 .allProjects{
     background-color: #293C5B;
-    padding: 20px;
+    padding: 50px 20px;
 
 }
 .allProjects h2{
-    margin-top: 0;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .gird-container{
-    justify-content: space-around;
+    justify-content: center;
     display: grid;
     grid-template-columns: 10rem 10rem 10rem ;
     grid-template-rows:20rem 20rem 20rem 20rem 20rem ;
-    row-gap: 10px;
+    column-gap: 10%;
+    row-gap: 20px;
 }
 .grid-card{
     background-color: #a829b6;
     align-content:end;
-    padding-bottom: 20px;
+    
+}
+.textBoxBackground{
+    background-color: rgba(48, 100, 173, 0.5);
+    padding: 20px 0;
+}
+.one{
+    background-image: url(assets/three.jpg);
+    background-size: cover;
+}
+.two{
+    background-image: url(assets/four.jpg);
+    background-size: cover;
+}
+.three{
+    background-image: url(assets/five.jpg);
+    background-size: cover;
+
+}
+.four{
+    background-image: url(assets/six.jpg);
+    background-size: cover;
+}
+.five{
+    background-image: url(assets/seven.jpg);
+    background-size: cover;
+}
+.six{
+    background-image: url(assets/eight.jpg);
+    background-size: cover;
+}
+.seven{
+    background-image: url(assets/nine.jpg);
+    background-size: cover;  
+}
+.eight{
+    background-image: url(assets/ten.jpg);
+    background-size: cover;
+}
+.nine{
+    background-image: url(assets/eleven.jpg);
+    background-size: cover;
+}
+.ten{
+    background-image: url(assets/twelve.jpg);
+    background-size: cover;
+}
+.eleven{
+    background-image: url(assets/thirteen.jpg);
+    background-size: cover;
+}
+.twelve{
+    background-image: url(assets/fourteen.jpg);
+    background-size: cover;
+}
+.thirteen{
+    background-image: url(assets/fifteen.jpg);
+    background-size: cover;
+}
+.fourteen{
+    background-image: url(assets/sixteen.png);
+    background-size: cover;
+}
+.fifteen{
+    background-image: url(assets/nineteen.jpg);
+    background-size: cover;
 }
 .grid-card button{
     display: block;
@@ -104,4 +180,34 @@ header h1{
     height: 16px ; */
     margin:0  auto;
     padding: 5 10px;
+}
+
+.last-section{
+    background-color: #1a2637;
+    color: rgb(142, 147, 163);
+    padding: 20px;
+    padding-top: 100px;
+    height: 400px;
+    /* align-content: center; */
+}
+.last-section-container{
+    padding: 0 48px;
+}
+.last-section h2{
+   margin:  16px 0 5px 0 ;
+}
+.last-section p{
+    width: 50%;
+    padding-top: 0;
+}
+
+.last-section-flex{
+    display: flex;
+    column-gap: 5px;
+}
+footer{
+    background-color: #110B33;
+    text-align: center;
+    padding: 20px;
+    color: rgb(142, 147, 163);
 }
