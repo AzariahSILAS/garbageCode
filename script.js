@@ -2,6 +2,8 @@ const viewMoreBtn = document.getElementById("viewMoreBtn")
 const viewMoreP = document.getElementById("viewMoreP")
 const aPContainer = document.getElementById("allProjects-container")
 const vmIcom = document.getElementById("vmIcom")
+const gridContainer = document.getElementById("grid-container")
+const gridCard = document.getElementsByClassName("grid-card")
 
 viewMoreBtn.addEventListener("click", (Event) =>{
     
@@ -17,4 +19,13 @@ viewMoreBtn.addEventListener("click", (Event) =>{
     }
     
 })
+let gridContainerWidth = gridContainer.offsetWidth
+let gridContainerHeight = gridContainerWidth * 1.6;
 
+
+
+
+gridContainer.style.height = gridContainerHeight + "px";
+
+
+console.log(gridContainerWidth)

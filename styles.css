@@ -27,6 +27,15 @@ nav{
     justify-content: space-around;
     height: 60.44px;
 }
+.logo{
+    margin: auto 0;
+}
+.logo img{
+    background-size: contain;
+    width: 80px;
+
+    
+}
 nav h3{
     color: aliceblue;
     text-shadow: 2px 3px 3px #e9a9f0 ;
@@ -58,7 +67,7 @@ header h1{
     color: rgb(142, 147, 163);
 }
 .aboutHomeTextBox{
-    width: 50rem;
+    width: 80%;
     margin: 0 auto;
 }
 .specialAppSection{
@@ -110,11 +119,11 @@ header h1{
     text-align: center;
 }
 
-.gird-container{
+#grid-container{
     justify-content: center;
     display: grid;
-    grid-template-columns: 14rem 14rem 14rem ;
-    grid-template-rows:20rem 20rem 20rem 20rem 20rem ;
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: 25% 20rem 20rem 20rem ;
     column-gap: 7%;
     row-gap: 20px;
 }
@@ -242,3 +251,19 @@ footer{
     padding: 20px;
     color: rgb(142, 147, 163);
 }
+
+
+/* -------------- media quary------------------ */
+
+@media only screen and (max-width: 941px) {
+    .container{
+        width: 70vw;
+    }
+    img{
+    width: 25vw;
+    min-width: 189px;
+    }
+}
+/* @media only screen and (min-width: 768px) {
+    
+} */
