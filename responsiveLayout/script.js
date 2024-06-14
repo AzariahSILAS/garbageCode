@@ -1,14 +1,32 @@
-const container = document.getElementById("container")
-const gridContainer = document.getElementById("grid")
-let gridColumn = "21%"
-let containerWidth = container.offsetWidth
+const container = document.getElementById("container");
+const gridContainer = document.getElementById("grid");
+const shrinkBox = document.getElementById("shrinkBox");
+const viewMoreBtn =document.getElementById("viewMoreBtn");
+let containerWidth = container.offsetWidth;
 
-let gridRow = containerWidth * 1.0;
-gridContainer.style.height = gridRow + "px"
+let shrinkBoxHeight = containerWidth * .7 ; 
+
+let gridRow = containerWidth * 1.5;
+gridContainer.style.height = gridRow + "px";
+
+shrinkBox.style.height = shrinkBoxHeight + "px";
+
+console.log(shrinkBoxHeight)
 
 
-console.log(gridRow)
-console.log(gridContainer.offsetHeight)
+// ---------------- macking the grid responive -----------------
+
+
+viewMoreBtn.addEventListener("click", (event) =>{
+    if(viewMoreBtn.innerText === "View more"){
+        shrinkBox.style.height = "auto";
+        viewMoreBtn.innerText = "View Less";
+    } else if(viewMoreBtn.innerText === "View Less"){
+        shrinkBox.style.height = shrinkBoxHeight + "px";
+        viewMoreBtn.innerText = "View more";
+    }
+})
+
 
 
 
