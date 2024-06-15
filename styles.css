@@ -5,265 +5,105 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
-}
+  margin: 0;
 
+}
+/* ------------------colors---------------------- */
+.c1{
+   background-color: #4A90E2 ;
+}
+.c2{
+    background-color: #FF6F61;
+}
+.c3{
+  background-color: #4A4A4A;  
+}
+.c4{
+    background-color: #FFFFFF;  
+  }
+  .c5{
+    background-color: #F5F5F5;  
+  }
+/* ------------------containers and box model---------------------- */
+.outerContainer{
+    max-width: 1440px;
+}
 .container{
-    width: 900px;
-    margin: 0 auto;
-    /* border: solid black 2px; */
-}
-
-button:hover{
-    cursor: pointer;
-    background-color: #293C5B;
-}
-
-body{
-    margin: 0;
-}
-nav{
-    background-color: #110B33;
     display: flex;
+    width: 1300px;
     justify-content: space-around;
-    height: 60.44px;
-}
-.logo{
-    margin: auto 0;
-}
-.logo img{
-    background-size: contain;
-    width: 80px;
-
-    
-}
-nav h3{
-    color: aliceblue;
-    text-shadow: 2px 3px 3px #e9a9f0 ;
-    cursor: pointer;
-}
-nav h3:hover{
-    font-size: 25px;
-}
-header{
-   height: 500px;
-   background-color: #202E44;
-   background-image: url("assets/cyberPRoom.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   text-align: center;
-   align-content: center;
-}
-header h1{
-    margin: 300px auto auto auto;
-    background-color: rgba(167, 186, 237, 50%);
-    width: 430px;
-    box-shadow: 0px 0px 8px #a829b6;
-    border-radius: 10px;
-}
-.aboutTheHome{
-    background-color: #1a2637;
-    padding: 20px 0;
-    color: rgb(142, 147, 163);
-}
-.aboutHomeTextBox{
-    width: 80%;
     margin: 0 auto;
 }
-.specialAppSection{
-    background-color: #1a2637;
-}
-.specialApp{
+.df{
+    display: flex;  
     
-    display: flex;
-    justify-content: space-between;
-    column-gap: 13%;
-    padding: 50px 48px;
-    margin: auto;
 }
-.text-content{
-    
-    /* margin: auto; */
+.aic{
+    align-items: center;
+}
+.aie{
+    align-items: end;
+}
+.ctn500{
+    height: 500px;
+}
+.SmallBox{
+    margin: 10px;
+}
+.mediumBox{
+    margin: 50px;
+}
+.pLarge{
+    padding: 100px;
+}
+.pbLarge{
+    padding-bottom: 100px;
+}
+.pMedium{
+    padding: 50px;
+}
+.pbMedium{
+    padding-bottom: 50px;
+}
+.pSmall{
+    padding: 25px;
+}
+.pbSmall{
+    padding-bottom: 25px;
+}
+.smallBox{
+    height: 300px;
     width: 400px;
 }
-/* .text-content h2{
-    margin: 0 0 0 10px;
-} */
-.specialApp img{
-    width: 250px;
-    /* margin: 30px 100px 30px 30px; */
+/* ------------------text---------------------- */
+.cw{
+    color: white;
 }
-.specialAppBtn{
-    background-color: #5F708C;
-    border-radius: 10px;
-    border: none;
-    margin: 10px 0 0 0px;
-    font-size: large;
+.tc{
+    text-align: center;
+}
+.t24{
+    font-size: 24px;
+}
+.cp{
+    cursor: pointer;
+}
+/* ------------------image/btn---------------------- */
+.img{
     width: 100px;
-    padding: 10px;
-    text-align: center;
+    height: 100px;
 }
-
-.allProjects{
-    background-color: #293C5B;
-    padding: 50px 20px 30px 20px;
-
-}
-#allProjects-container{
-    /* border: solid black 2px; */
-    height: 760px;
-    overflow: hidden;
-}
-.allProjects h2{
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-#grid-container{
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 25% 25% 25% ;
-    grid-template-rows: 25% 20rem 20rem 20rem ;
-    column-gap: 7%;
-    row-gap: 20px;
-}
-.grid-card{
-    background-color: #a829b6;
-    align-content:end;
-    cursor: pointer;
-    
-}
-.grid-card:hover{
-    width: 15rem;
-    height:21rem ;
-}
-.textBoxBackground{
-    background-color: rgba(48, 100, 173, 0.5);
-    padding: 20px 0;
-}
-.one{
-    background-image: url(assets/three.jpg);
-    background-size: cover;
-}
-.two{
-    background-image: url(assets/four.jpg);
-    background-size: cover;
-}
-.three{
-    background-image: url(assets/five.jpg);
-    background-size: cover;
-
-}
-.four{
-    background-image: url(assets/six.jpg);
-    background-size: cover;
-}
-.five{
-    background-image: url(assets/seven.jpg);
-    background-size: cover;
-}
-.six{
-    background-image: url(assets/eight.jpg);
-    background-size: cover;
-}
-.seven{
-    background-image: url(assets/nine.jpg);
-    background-size: cover;  
-}
-.eight{
-    background-image: url(assets/ten.jpg);
-    background-size: cover;
-}
-.nine{
-    background-image: url(assets/eleven.jpg);
-    background-size: cover;
-}
-.ten{
-    background-image: url(assets/twelve.jpg);
-    background-size: cover;
-}
-.eleven{
-    background-image: url(assets/thirteen.jpg);
-    background-size: cover;
-}
-.twelve{
-    background-image: url(assets/fourteen.jpg);
-    background-size: cover;
-}
-.thirteen{
-    background-image: url(assets/fifteen.jpg);
-    background-size: cover;
-}
-.fourteen{
-    background-image: url(assets/sixteen.png);
-    background-size: cover;
-}
-.fifteen{
-    background-image: url(assets/nineteen.jpg);
-    background-size: cover;
-}
-.viewMoreBtn{
-    align-content: center;
+.btn{
     border-radius: 10px;
-    width: 150px;
-    margin: 30px auto 0 auto;
-    padding-top: 10px;
+    padding: 5px 10px;
     cursor: pointer;
 }
-.viewMoreBtn:hover{
-    background-color: #1d2d45;
-}
+/* ---------------------specific------------------------ */
 
-.viewMoreBtn h2{
-    margin: 0;
+.card{
+    width: 150 ;
+    height: 300px;
+    background-color: #D9D9D9 ;
+    box-shadow:  1px 1px 10px #0f0f0f;
+    margin-bottom: 25px;
 }
-.viewMoreBtn img{ 
-    display: block;
-    margin: auto;
-}
-
-.last-section{
-    background-color: #1a2637;
-    color: rgb(142, 147, 163);
-    padding: 20px;
-    padding-top: 100px;
-    height: 400px;
-    /* align-content: center; */
-}
-.last-section-container{
-    padding: 0 48px;
-}
-.last-section h2{
-   margin:  16px 0 5px 0 ;
-}
-.last-section p{
-    width: 50%;
-    padding-top: 0;
-}
-
-.last-section-flex{
-    display: flex;
-    column-gap: 5px;
-}
-footer{
-    background-color: #110B33;
-    text-align: center;
-    padding: 20px;
-    color: rgb(142, 147, 163);
-}
-
-
-/* -------------- media quary------------------ */
-
-@media only screen and (max-width: 941px) {
-    .container{
-        width: 70vw;
-    }
-    img{
-    width: 25vw;
-    min-width: 189px;
-    }
-}
-/* @media only screen and (min-width: 768px) {
-    
-} */
