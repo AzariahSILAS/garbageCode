@@ -8,6 +8,19 @@
   margin: 0;
 
 }
+.lastButton{
+    margin: 10px auto;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #FF6F61;
+    text-align: center;
+}
+a{
+    /* text-decoration: none; */
+    color: #0f0f0f;
+}
 /* ------------------colors---------------------- */
 .c1{
    background-color: #4A90E2 ;
