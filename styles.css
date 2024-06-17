@@ -20,10 +20,10 @@
 }
 .c4{
     background-color: #FFFFFF;  
-  }
-  .c5{
+}
+.c5{
     background-color: #F5F5F5;  
-  }
+}
 /* ------------------containers and box model---------------------- */
 .outerContainer{
     max-width: 1440px;
@@ -33,6 +33,19 @@
     width: 1300px;
     justify-content: space-around;
     margin: 0 auto;
+}
+.container2{
+    width: 1300px;
+    margin: 0 auto;
+}
+.mauto{
+    display: inline;
+    margin: 0 auto;
+    border: solid;
+}
+.dflex{
+    display: flex;
+    justify-content: space-around ;
 }
 .df{
     display: flex;  
@@ -45,7 +58,7 @@
     align-items: end;
 }
 .ctn500{
-    height: 500px;
+    min-height: 500px;
 }
 .SmallBox{
     margin: 10px;
@@ -53,6 +66,10 @@
 .mediumBox{
     margin: 50px;
 }
+/* .az{
+    display: flex;
+    justify-content: center;
+} */
 .pLarge{
     padding: 100px;
 }
@@ -75,6 +92,9 @@
     height: 300px;
     width: 400px;
 }
+.centerM{
+    margin: 0 auto;
+}
 /* ------------------text---------------------- */
 .cw{
     color: white;
@@ -89,11 +109,17 @@
     cursor: pointer;
 }
 /* ------------------image/btn---------------------- */
-.img{
+.img1{
     width: 100px;
     height: 100px;
 }
+.img2{
+    width: 632px ;
+    /* border: solid; */
+
+}
 .btn{
+    display: inline;
     border-radius: 10px;
     padding: 5px 10px;
     cursor: pointer;
@@ -101,7 +127,7 @@
 /* ---------------------specific------------------------ */
 
 .card{
-    width: 150 ;
+    width: 200px ;
     height: 300px;
     background-color: #D9D9D9 ;
     box-shadow:  1px 1px 10px #0f0f0f;
