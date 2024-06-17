@@ -6,143 +6,140 @@
   font-weight: 400;
   box-sizing: border-box;
   margin: 0;
+}
 
-}
-.lastButton{
-    margin: 10px auto;
-    width: 400px;
-    border-radius: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-    background-color: #FF6F61;
-    text-align: center;
-}
 a{
-    /* text-decoration: none; */
     color: #0f0f0f;
 }
-/* ------------------colors---------------------- */
-.c1{
+.cBlue{
    background-color: #4A90E2 ;
 }
-.c2{
+.cOrange{
     background-color: #FF6F61;
 }
-.c3{
+.cGrey{
   background-color: #4A4A4A;  
 }
-.c4{
+.cWhite{
     background-color: #FFFFFF;  
 }
-.c5{
+.cOffWhite{
     background-color: #F5F5F5;  
 }
-/* ------------------containers and box model---------------------- */
-.outerContainer{
-    max-width: 1440px;
+.logo{
+    width: 80px;
+    height: 80px;
 }
-.container{
-    display: flex;
-    width: 1300px;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-.container2{
-    width: 1300px;
-    margin: 0 auto;
-}
-.mauto{
-    display: inline;
-    margin: 0 auto;
-    border: solid;
-}
-.dflex{
-    display: flex;
-    justify-content: space-around ;
-}
-.df{
-    display: flex;  
-    
-}
-.aic{
-    align-items: center;
-}
-.aie{
-    align-items: end;
-}
-.ctn500{
-    min-height: 500px;
-}
-.SmallBox{
-    margin: 10px;
-}
-.mediumBox{
-    margin: 50px;
-}
-/* .az{
-    display: flex;
-    justify-content: center;
-} */
-.pLarge{
-    padding: 100px;
-}
-.pbLarge{
-    padding-bottom: 100px;
-}
-.pMedium{
-    padding: 50px;
-}
-.pbMedium{
-    padding-bottom: 50px;
-}
-.pSmall{
-    padding: 25px;
-}
-.pbSmall{
-    padding-bottom: 25px;
-}
-.smallBox{
-    height: 300px;
-    width: 400px;
-}
-.centerM{
-    margin: 0 auto;
-}
-/* ------------------text---------------------- */
-.cw{
-    color: white;
-}
-.tc{
-    text-align: center;
-}
-.t24{
-    font-size: 24px;
-}
-.cp{
-    cursor: pointer;
-}
-/* ------------------image/btn---------------------- */
 .img1{
-    width: 100px;
-    height: 100px;
-}
-.img2{
     width: 632px ;
-    /* border: solid; */
-
 }
 .btn{
-    display: inline;
+    display: inline-block;
     border-radius: 10px;
     padding: 5px 10px;
     cursor: pointer;
+    background-color: #FF6F61;
+    /* margin: 0 auto; */
 }
-/* ---------------------specific------------------------ */
+
+.outerContainer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
 
 .card{
     width: 200px ;
     height: 300px;
     background-color: #D9D9D9 ;
     box-shadow:  1px 1px 10px #0f0f0f;
+    margin: auto;
     margin-bottom: 25px;
+}
+
+.margin10px{
+    margin: 10px 0;
+}
+/* .center-blocks{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} */
+/* ----------------nav--------------- */
+nav{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----------------header--------------- */
+header{
+    height: 500px;
+    text-align: center;
+    align-content: end;
+    padding-bottom: 100px;
+
+}
+
+/* ----------------first section--------------- */
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 0;
+
+}
+.contentBox500{
+    margin: auto 0;
+    width: 500px;
+
+
+}
+.first-section-h1{
+    text-align: center;
+    margin: 10px;
+}
+
+/* ----------------second section--------------- */
+.second-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----------------third section--------------- */
+.third-section-h1{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom:100px ;
+}
+.collection-grid{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+.third-sectionBtn{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+/* ----------------footer--------------- */
+footer{
+    height: 75px;
+   
+}
+.footer-p{
+   padding-top: 20px;
+    text-align: center;
 }
