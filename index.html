@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/pages/styles.css">
     <title>Garbage code</title>
 </head>
 <body>
@@ -13,16 +13,16 @@
             <a href="index.html"><img class="logo" src="assets/garbage.png" alt=""></a> 
             <div class="navLinks">
                 <a href="index.html"><p class="">HOME</p></a>
-                <a target="_blank" href="collection.html"><p class="">COLLECTION</p></a>
-                <a href="about.html"><p class="">ABOUT</p></a>
-                <a href="blog.html"><p class="">BLOG</p></a>
+                <a href="/pages/collection.html"><p class="">COLLECTION</p></a>
+                <a href="/pages/about.html"><p class="">ABOUT</p></a>
+                <a href="/pages/blog.html"><p class="">BLOG</p></a>
             </div>
         </nav>
     </div>
     <!-- --------------header---------------------- -->
     <div class="outerContainer cWhite">
-        <header class="container ">
-            <h1 class="">Welcom To Garbage Code</h1>
+        <header class=" home-header container ">
+            <h1 class="header-h1">Welcom To Garbage Code</h1>
         </header>
     </div>
     
@@ -55,21 +55,22 @@
             <img class="img1" src="assets/falloutzimg.png" alt="">
         </div>
     </div>
+    <!-- --------------third section---------------------- -->
     <div class="outerContainer cGrey">
         <div class="third-section container">
             <h1 class="third-section-h1">Most Recent Blog Post </h1>
-            <div class="collection-grid">
+            <div id="collection-grid" class="collection-grid">
                 <div class="card"></div> 
                 <div class="card"></div>
                 <div class="card"></div>
             </div>
             <div class="third-sectionBtn">
-                <h2 class="btn">VIEW ALL POST</h2>
+                <h2 id="lastBtn" class="btn">VIEW ALL POST</h2>
             </div>
         </div>
     </div>
     
-    
+    <!-- --------------footer---------------------- -->
     <div class="outerContainer cBlue">
        <footer class="container">
         <p class="footer-p">published by Azariah</p>
@@ -81,6 +82,7 @@
 
 
     <script src="script.js"></script>
+    <script src="./Scripts/blogBuild.js"></script>
 
 </body>
 </html>

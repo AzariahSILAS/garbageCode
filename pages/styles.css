@@ -90,6 +90,18 @@ header{
     padding-bottom: 100px;
 
 }
+.home-header{
+    background-image: url(../assets/garbageCodeBackground.png);
+    background-position: center;
+    background-size:cover;
+    /* border: solid; */
+}
+.header-h1{
+    background-color: rgba(74, 74, 74, 50%);
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 10px;
+}
 
 /* ----------------first section--------------- */
 .first-section{
@@ -142,4 +154,64 @@ footer{
 .footer-p{
    padding-top: 20px;
     text-align: center;
+}
+/* ----------------------------------About me---------------------------------------- */
+
+.about-first-section{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text-box{
+    width: 50%;
+}
+.h1-padding-bottem{
+    padding-bottom: 10px;
+}
+.about-img-div{
+    width: 30%;
+}
+.about-img{
+   /* height: 100%; */
+   width: 100%;
+}
+/* ----------------------------------About me second section---------------------------------------- */
+.about-second-section{
+    margin-bottom: 20px;
+}
+hr{
+    width: 1000px;
+    height: 3px;
+    margin: 50px auto;
+    background-color: #0f0f0f;
+    border: #0f0f0f;
+}
+
+/* ----------------------------------About me third section---------------------------------------- */
+.about-third-section h1{
+    text-align: center;
+}
+
+.about-row{
+ display: flex;
+ height: 100px;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+.about-text-box{
+    width: 40%;
+}
+.about-text-box li{
+    margin: 20px;
+}
+.about-btn-section{
+    text-align: center;
+}
+.about-btn-section p{
+    margin-bottom: 10px;
+}
+.about-btn-section h2{
+    margin-bottom: 30px;
 }
