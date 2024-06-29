@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a{
+    color: #0f0f0f;
+}
+.cBlue{
+   background-color: #4A90E2 ;
+}
+.cOrange{
+    background-color: #FF6F61;
+}
+.cGrey{
+  background-color: #4A4A4A;  
+}
+.cWhite{
+    background-color: #FFFFFF;  
+}
+.cOffWhite{
+    background-color: #F5F5F5;  
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.img1{
+    width: 632px ;
+}
+.btn{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #FF6F61;
+    /* margin: 0 auto; */
+}
+
+.outerContainer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+.card{
+    width: 200px ;
+    height: 300px;
+    background-color: #D9D9D9 ;
+    box-shadow:  1px 1px 10px #0f0f0f;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.margin10px{
+    margin: 10px 0;
+}
+/* .center-blocks{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} */
+/* ----------------nav--------------- */
+nav{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----------------header--------------- */
+header{
+    height: 500px;
+    text-align: center;
+    align-content: end;
+    padding-bottom: 100px;
+
+}
+.home-header{
+    background-image: url(../assets/garbageCodeBackground.png);
+    background-position: center;
+    background-size:cover;
+    /* border: solid; */
+}
+.header-h1{
+    background-color: rgba(74, 74, 74, 50%);
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+/* ----------------first section--------------- */
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 0;
+
+}
+.contentBox500{
+    margin: auto 0;
+    width: 500px;
+
+
+}
+.first-section-h1{
+    text-align: center;
+    margin: 10px;
+}
+
+/* ----------------second section--------------- */
+.second-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----------------third section--------------- */
+.third-section-h1{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom:100px ;
+}
+.collection-grid{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+.third-sectionBtn{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+/* ----------------footer--------------- */
+footer{
+    height: 75px;
+   
+}
+.footer-p{
+   padding-top: 20px;
+    text-align: center;
+}
+/* ----------------------------------About me---------------------------------------- */
+
+.about-first-section{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text-box{
+    width: 50%;
+}
+.h1-padding-bottem{
+    padding-bottom: 10px;
+}
+.about-img-div{
+    width: 30%;
+}
+.about-img{
+   /* height: 100%; */
+   width: 100%;
+}
+/* ----------------------------------About me second section---------------------------------------- */
+.about-second-section{
+    margin-bottom: 20px;
+}
+hr{
+    width: 1000px;
+    height: 3px;
+    margin: 50px auto;
+    background-color: #0f0f0f;
+    border: #0f0f0f;
+}
+
+/* ----------------------------------About me third section---------------------------------------- */
+.about-third-section h1{
+    text-align: center;
+}
+
+.about-row{
+ display: flex;
+ height: 100px;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+.about-text-box{
+    width: 40%;
+}
+.about-text-box li{
+    margin: 20px;
+}
+.about-btn-section{
+    text-align: center;
+}
+.about-btn-section p{
+    margin-bottom: 10px;
+}
+.about-btn-section h2{
+    margin-bottom: 30px;
+}
