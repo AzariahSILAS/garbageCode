@@ -59,7 +59,30 @@ a{
     box-shadow:  1px 1px 10px #0f0f0f;
     margin: auto;
     margin-bottom: 25px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+.firstH3{
+    padding: 10px;
+}
+
+.cardDiscript{
+    padding: 10px;
+    /* width: 100px; */
+    /* background-color: #4A90E2; */
+}
+.h3Btn{
+    text-align: center;
+    background-color: #FF6F61;
+    padding: 5px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 .margin10px{
     margin: 10px 0;
@@ -139,6 +162,7 @@ header{
     justify-content: space-around;
     width: 1000px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .third-sectionBtn{
     display: flex;

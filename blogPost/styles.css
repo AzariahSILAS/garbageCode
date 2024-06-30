@@ -91,59 +91,12 @@ header{
 
 }
 .home-header{
-    background-image: url(../assets/garbageCodeBackground.png);
+    background-image: url(../assets/firstBlogImg.png);
     background-position: center;
     background-size:cover;
     /* border: solid; */
-}
-.header-h1{
-    background-color: rgba(74, 74, 74, 50%);
-    display: inline-block;
-    padding: 0 20px;
-    border-radius: 10px;
-}
-
-/* ----------------first section--------------- */
-.first-section{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    padding: 100px 0;
-
-}
-.contentBox500{
-    margin: auto 0;
-    width: 500px;
-
-
-}
-.first-section-h1{
-    text-align: center;
-    margin: 10px;
-}
-
-/* ----------------second section--------------- */
-.second-section{
-    display: flex;
-    justify-content: space-between;
-}
-
-/* ----------------third section--------------- */
-.third-section-h1{
-    text-align: center;
-    padding-top: 100px;
-    margin-bottom:100px ;
-}
-.collection-grid{
-    display: flex;
-    justify-content: space-around;
-    width: 1000px;
-    margin: 0 auto;
-}
-.third-sectionBtn{
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
+    background-color: #4A4A4A;
+    height: 500px;
 }
 
 /* ----------------footer--------------- */
@@ -181,37 +134,30 @@ footer{
     margin-bottom: 20px;
 }
 hr{
-    width: 1000px;
+    width: 100%;
     height: 3px;
     margin: 50px auto;
     background-color: #0f0f0f;
     border: #0f0f0f;
 }
+h1{
+    padding:10px;
+}
+.content{
+    width: 800px;
+    
 
-/* ----------------------------------About me third section---------------------------------------- */
-.about-third-section h1{
-    text-align: center;
 }
-
-.about-row{
- display: flex;
- height: 100px;
- align-items: center;
- justify-content: space-between;
- margin-bottom: 20px;
+.longImg{
+    background-image: url(../assets/sideImg.png);
+    width: 300px;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
-.about-text-box{
-    width: 40%;
-}
-.about-text-box li{
-    margin: 20px;
-}
-.about-btn-section{
-    text-align: center;
-}
-.about-btn-section p{
-    margin-bottom: 10px;
-}
-.about-btn-section h2{
-    margin-bottom: 30px;
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
